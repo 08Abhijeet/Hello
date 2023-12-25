@@ -1,0 +1,119 @@
+.skills
+{
+    width: 100%;
+    height: fit-content;
+ margin-top: 50px;
+display: flex;
+padding: 0 400px;
+  
+}
+
+.skilled
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 3000px;
+    height: fit-content;
+   
+    flex-direction: column;
+    gap: 20px;
+    
+  
+}
+.para
+{
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 800;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.divisons
+{
+    color: grey;
+    font-size: 25px;
+    font-weight: 300;
+}
+.allskills
+{
+    display: flex;
+    justify-content: center;
+ 
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+.f
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.s
+{
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+}
+.a, .b, .c, .d {
+    height: 400px;
+    width: 500px;
+    border: 1px solid #3a9188;
+    border-radius: 100px;
+    box-shadow: inset 0 0 10px rgba(235, 5, 196, 0.5),
+                inset 0 0 20px rgba(235, 5, 196, 0.5),
+                inset 0 0 30px rgba(235, 5, 196, 0.5);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+  }
+  
+.r 
+{
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    color: rgb(252, 249, 249);
+}
+@media (max-width: 768px) {
+    .skills {
+      padding: 0 ; /* Adjust as needed for smaller screens */
+      margin-top: 500px;
+    }
+  
+   
+    .skilled {
+      width: 100%;
+    }
+  
+
+        .skills {
+          padding: 0 10px;
+          margin-left: 00px;
+
+        }
+      .first
+      {
+        margin-top: 100px;
+      }
+        .skilled {
+          width: 100%;
+          gap: 10px;
+        }
+      
+        .f,
+        .s {
+          flex-direction: column;
+          gap: 20px;
+          width: 500px;
+        }
+      
+        .a,
+        .b,
+        .c,
+        .d {
+          width: 100%;
+        }
+      }
